@@ -21,7 +21,6 @@ class Layer:
         self.activation_backward = None
         self.cache_input = None
         self.cache_z = None
-        self.da_by_dz = None
         self.dz_by_dw = None
         self.dz_by_db = None
 
