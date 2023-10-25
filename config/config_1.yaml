@@ -1,0 +1,13 @@
+NETWORK:
+  input_dimension: 1
+  activations: ["Sigmoid", "Sigmoid", "Sigmoid", "Identity", ]
+  nodes: [256, 128, 64, 1]
+
+TRAINING:
+  train_epochs: 10
+  steps_per_epoch: 10000
+  validation_frequency: 1
+  loss_function: mse
+  epsilon_decay_base: 0.9
+  checkpoint_load: None
+  checkpoint_write: checkpoints/1.pth
