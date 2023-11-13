@@ -12,6 +12,10 @@ Basic checkpointing is supported and also configured in the config file. Execute
 
 The file `source/network.py` contains the entire network definition. 
 
+## TODO
+- Add batch support
+- Add support for classification problems
+
 ## Theory: Multilayer Perceptron
 <img src="graphics/nn.png" alt="drawing" width="400"/>
 
